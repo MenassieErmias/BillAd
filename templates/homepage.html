@@ -1,0 +1,62 @@
+{%extends 'base.html'%}
+{%load static %}
+{%block title%}
+Homepage
+{%endblock%}
+{%block extra%}
+<link href="{%static 'css/agency.min.css' %}" rel="stylesheet">
+{%endblock%}
+{%block content%}
+
+<div class="jumbotron jumbotron-fluid" id="JumboHeaderImg">
+  <div class="container jumbotronObjects">
+    <!-- <h1 class="display-4" id="jumboHeader">BillAd</h1> -->
+        <a class ="nav-link" href=""><img class="mb-4" src="{%static 'images/logo.png' %}"" alt="" width="200" height="200"></a>
+    <p class="lead" id="jumboSlogan">Advertisement Renting made easy</p>
+  </div>
+</div>
+<!-- Services -->
+<section class="page-section" id="services">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">Services</h2>
+        <h3 class="section-subheading text-muted">Below are services we so proudly provide</h3>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col-md-4">
+        <span class="fa-stack fa-4x">
+          <i class="fas fa-circle fa-stack-2x text-primary"></i>
+          <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4 class="service-heading">Rent</h4>
+        <p class="text-muted">Browse and rent out any of the billboads you desire from our vast collection of billboards that are located all over the city. </p>
+      </div>
+      <div class="col-md-4">
+        <span class="fa-stack fa-4x">
+          <i class="fas fa-circle fa-stack-2x text-primary"></i>
+          <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4 class="service-heading">Post</h4>
+        <p class="text-muted">Put up your billboard on our system so that thousand of people can view it. BillAd makes you job of finding an advertiser for your billboard easier.</p>
+      </div>
+      <div class="col-md-4">
+        <span class="fa-stack fa-4x">
+          <i class="fas fa-circle fa-stack-2x text-primary"></i>
+          <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4 class="service-heading">Manage</h4>
+        <p class="text-muted">Monitor all of the billboards that you own to know which ones are rented for what price and all other needed information about them. </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+{%endblock%}
+
+
